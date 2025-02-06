@@ -3,9 +3,9 @@ import { useEffect, useState } from "react";
 
 const Navbar = () => {
   const [sticky,setSticky]= useState(false)
-  useEffect(()=>{
-    const handleScroll=()=>{
-      if(window.scroll>0){
+  useEffect(() => {
+    const handleScroll = () => {
+      if(window.scrollY > 0){
         setSticky(true)
       }
       else{
@@ -40,7 +40,7 @@ const Navbar = () => {
       ? "sticky-navbar shadow-md bg-base-200 duration-300 transition-all ease-in-out"
       : ""
     }`}>
-    <div className="navbar bg-base-100">
+    <div className="navbar">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">

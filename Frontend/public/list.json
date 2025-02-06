@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Story Book",
+    "title": "A Journey Through Tales",
+    "price": "₹0",
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1738857004~exp=1738860604~hmac=1c85ed674c21f408a0010b23ec9128dfc49eb6760556242a7236e1e447058386&w=740"
+  },
+  {
+    "id": 2,
+    "name": "Science Fiction",
+    "title": "The Space Adventures",
+    "price": "₹250",
+    "category": "Science",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1738857033~exp=1738860633~hmac=81163039805c4118943b6a74455dbb2623298ca82920fb71c81610d35e7a4a61&w=740"
+  },
+  {
+    "id": 3,
+    "name": "Mathematics Guide",
+    "title": "Math Made Easy",
+    "price": "₹250",
+    "category": "Educational",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1738857033~exp=1738860633~hmac=81163039805c4118943b6a74455dbb2623298ca82920fb71c81610d35e7a4a61&w=740"
+  },
+  {
+    "id": 4,
+    "name": "History Book",
+    "title": "The History of Civilizations",
+    "price": "₹0",
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1738857004~exp=1738860604~hmac=1c85ed674c21f408a0010b23ec9128dfc49eb6760556242a7236e1e447058386&w=740"
+  },
+  {
+    "id": 5,
+    "name": "Literature",
+    "title": "The Great Novels of All Time",
+    "price": "₹250",
+    "category": "Literature",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341897.jpg?t=st=1738857033~exp=1738860633~hmac=81163039805c4118943b6a74455dbb2623298ca82920fb71c81610d35e7a4a61&w=740"
+  },
+  {
+    "id": 6,
+    "name": "Art Book",
+    "title": "Masterpieces of Art",
+    "price": "₹0",
+    "category": "Free",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1738857004~exp=1738860604~hmac=1c85ed674c21f408a0010b23ec9128dfc49eb6760556242a7236e1e447058386&w=740"
+  },
+  {
+    "id": 7,
+    "name": "Cookbook",
+    "title": "Delicious Recipes",
+    "price": "₹250",
+    "category": "Cooking",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1738857004~exp=1738860604~hmac=1c85ed674c21f408a0010b23ec9128dfc49eb6760556242a7236e1e447058386&w=740"
+  },
+  {
+    "id": 8,
+    "name": "Travel Book",
+    "title": "World Wonders",
+    "price": "₹250",
+    "category": "Travel",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1738857004~exp=1738860604~hmac=1c85ed674c21f408a0010b23ec9128dfc49eb6760556242a7236e1e447058386&w=740"
+  },
+  {
+    "id": 9,
+    "name": "Psychology",
+    "title": "Understanding the Human Mind",
+    "price": "₹250",
+    "category": "Psychology",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1738857004~exp=1738860604~hmac=1c85ed674c21f408a0010b23ec9128dfc49eb6760556242a7236e1e447058386&w=740"
+  },
+  {
+    "id": 10,
+    "name": "Self-Help",
+    "title": "Achieving Personal Growth",
+    "price": "₹250",
+    "category": "Self-Help",
+    "image": "https://img.freepik.com/free-vector/hand-drawn-flat-design-stack-books-illustration_23-2149341898.jpg?t=st=1738857004~exp=1738860604~hmac=1c85ed674c21f408a0010b23ec9128dfc49eb6760556242a7236e1e447058386&w=740"
+  }
+]
