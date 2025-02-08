@@ -2,28 +2,26 @@
 
 function Cards({ item }) {
   return (
-    <>
-      <div className="mt-4 my-3 p-3">
-        <div className="card w-92 bg-base-100 shadow-xl hover:scale-105 duration-200 dark:bg-slate-900 dark:text-white dark:border">
-          <figure>
-            <img src={item.image} alt="books" />
-          </figure>
-          <div className="card-body">
-            <h2 className="card-title">
-              {item.name}
-              <div className="badge badge-secondary">{item.category}</div>
-            </h2>
-            <p>{item.title}</p>
-            <div className="card-actions justify-between">
-              <div className="badge badge-outline">{item.price}</div>
-              <div className=" cursor-pointer px-2 py-1 rounded-full border-[2px] hover:bg-pink-500 hover:text-white duration-200">
-                Buy Now
-              </div>
-            </div>
+    <div className="mt-4 my-3 p-3 flex justify-center">
+      <div className="card w-80 md:w-96 bg-base-100 shadow-lg rounded-lg overflow-hidden transition-all duration-300 hover:shadow-2xl hover:bg-gray-100 dark:bg-slate-900 dark:text-white dark:border dark:hover:bg-slate-800">
+        <figure className="h-45 overflow-hidden">
+          <img src={item.image} alt={item.name} className="w-full h-48 object-cover" />
+        </figure>
+        <div className="card-body p-4">
+          <h2 className="card-title text-lg font-semibold flex items-center justify-between">
+            {item.name}
+            <span className="badge badge-secondary text-sm px-2 py-1">{item.category}</span>
+          </h2>
+          <p className="text-sm text-gray-600 dark:text-gray-300">{item.title}</p>
+          <div className="card-actions flex justify-between items-center mt-3">
+            <span className="text-lg font-semibold text-gray-800 dark:text-gray-200">{item.price}</span>
+            <button className="px-3 py-1 text-white bg-pink-500 rounded-full transition duration-300 hover:bg-pink-600">
+              Buy Now
+            </button>
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
