@@ -10,9 +10,9 @@ function Banner() {
               <span className="text-pink-500">new everyday!!!</span>
             </h1>
             <p className="text-sm md:text-xl">
-            BookStore is where every book is a gateway to knowledge! Explore
-              insightful reads, expert guides, and inspiring stories to expand
-              your mind and fuel your curiosity. Start learning today!
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolor,
+              et totam. Tempora amet atque expedita, quae corrupti totam sed
+              pariatur corporis at veniam est voluptas animi!
             </p>
             <label className="input input-bordered flex items-center gap-2">
               <svg
@@ -27,7 +27,7 @@ function Banner() {
               <input type="text" className="grow" placeholder="Email" />
             </label>
           </div>
-          <button className="btn mt-6 btn-secondary">Subscribe</button>
+          <button className="btn mt-6 btn-secondary">Get Started</button>
         </div>
         <div className=" order-1 w-full mt-20 md:w-1/2">
           <img
